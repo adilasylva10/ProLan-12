@@ -1,0 +1,40 @@
+Dokumentasi Program Televisi
+
+NIM   : 10115258
+Nama  : ADI LASYLVA
+Kelas : Prolan-12
+
+
+1. Deskripsi Program
+
+program ini digunakan untuk mendata barang yang ada di toko televisi.
+
+
+Program ini dibuat menggunakan menu pilihan yang terdiri dari :
+- Menu pilihan barang
+  Menampilkan data televisi.
+- Diskon
+  Menampilkan diskon apabila belanja dengan nominal tertentu.
+- Cicilan
+  Pengajuan cicilan dengan memasukkan nama dan uang muka.
+
+
+2. Cara Menggunakan Program  
+- Pada saat pertama kali running akan menampilkan beberapa menu pilihan data barang, diskon & cicilan
+- Pilihlah salah satu maka anda akan mendapatkan info berupa deskripsi produk, diskon & cicilan yang ada di toko ini
+- Untuk kembali ke menu pilihan tekan 'J'      
+
+
+3. Keterkaitan dengan OOP
+
+- Inherintance di tunjukan pada kelas DataBarang sebagai Super kelasnya yang di extends pada kelas Barang.
+- Kelas Abstract di tunjukan pada kelas DataBarang .
+- Abstract Method ditunjukan pada method note di kelas DataBarang.
+- Interface di tunjukan pada DataToko yang di implementasikan pada kelas GenericCicilTelevisi, GenericTv dan StatusTelevisiBaru.
+- Generic class di tunjukan pada kelas GenericTv.
+- Generic Method di tunjukan pada method Membayar dan diskon di kelas GenericTv.
+- Pada program ini terdapat dua package , yaitu Data yang di dalamnya terdapat kelas DataBarang & DataToko.
+  dan package TelevData yang didalamnya terdapat kelas Barang, GenericCicilTelevisi, MainDataTelevisi & StatusTelevisiBaru.
+- Overriding di tunjukan pada kelas GenericTv, GenericCicilTelevisi, Barang dan StatusTelevisiBaru. yaitu di atas methodnya memiliki ciri
+  @Override
+- encapsulation , getter dan setter di tujukan pada kelas GenericTv, StatusTelevisiBaru & DataBarang. 
